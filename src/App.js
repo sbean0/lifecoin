@@ -16,7 +16,7 @@ function App() {
           Learn React for great coffee
          </a>
           
-          <b>Mission:</b> 
+          <h3>Mission:</h3> 
           <p><code>aim for great usefulness!</code>
           </p>
         
