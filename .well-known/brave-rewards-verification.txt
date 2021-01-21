@@ -1,0 +1,6 @@
+This is a Brave Rewards publisher verification file.
+
+
+Domain: lifecoin.io 
+
+Token: da6e18994ad3ff412a64782e990b21998481c041649397e1ea6b9ee96c15a6dd
