@@ -23,8 +23,9 @@ function App() {
           <h3>Mission:</h3> 
           <p><code>aim for great usefulness!</code>
           </p>
-        
+       
       </header>
+ <p>hello world</p>
     </div>
 
   );
