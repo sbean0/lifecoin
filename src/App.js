@@ -1,8 +1,13 @@
 import logo from './ship.svg';
 import './App.css';
+import BlogPage from "./BlogPage";
+
 
 function App() {
   return (
+    <Router>
+    <Switch>
+      <Route exact path="/">
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
@@ -22,6 +27,12 @@ function App() {
         
       </header>
     </div>
+    </Route>
+        <Route exact path="/blog">
+          <BlogPage />
+        </Route>
+      </Switch>
+    </Router>
   );
 }
 
