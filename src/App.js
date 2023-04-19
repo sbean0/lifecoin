@@ -1,7 +1,7 @@
 import logo from './ship.svg';
 import './App.css';
 import BlogPage from "./BlogPage";
-
+import Navigation from "./Navigation";
 
 function App() {
   return (
@@ -10,6 +10,7 @@ function App() {
       <Route exact path="/">
     <div className="App">
       <header className="App-header">
+    <Navigation />
         <img src={logo} className="App-logo" alt="logo" />
 
         <a
