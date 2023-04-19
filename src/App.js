@@ -5,12 +5,10 @@ import Navigation from "./Navigation";
 
 function App() {
   return (
-    <Router>
-    <Switch>
-      <Route exact path="/">
+
     <div className="App">
       <header className="App-header">
-    <Navigation />
+      <Navigation />
         <img src={logo} className="App-logo" alt="logo" />
 
         <a
@@ -28,12 +26,7 @@ function App() {
         
       </header>
     </div>
-    </Route>
-        <Route exact path="/blog">
-          <BlogPage />
-        </Route>
-      </Switch>
-    </Router>
+
   );
 }
 
